@@ -12,9 +12,9 @@ import { Link } from 'react-router-dom';
 const address = [
   {
     icons: <LiaPhoneVolumeSolid size={60} color="blue" />,
-    personInfo: '+91 9784098800',
+    personInfo: '8000074330, 9784098800',
     contact: 'tel:9784098800',
-    namesperson: '(Rohit Maheshwari)',
+    namesperson: '(Mohd. Sharif, Rohit Maheshwari)',
   },
   {
     icons: <TfiEmail size={60} color="blue" />,
@@ -35,9 +35,15 @@ const address = [
   },
   {
     icons: <SlLocationPin size={60} color="blue" />,
-    name: 'Home Address',
+    name: 'Godown Address',
     subpara:
       '32, Nakoda Complex Hiran Magri Sector 4, Udaipur (Raj.) - 313002',
+  },
+  {
+    icons: <SlLocationPin size={60} color="blue" />,
+    name: 'Home Address',
+    subpara:
+      'A-136 Murshid Nagar Sector 12 Hiran Magri Saweena, Udaipur (Raj.) - 313002',
   },
 ];
 
@@ -96,14 +102,14 @@ const Contact = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{headline} - Parmeshwar Steel Center</title>
+        <title>{headline} - Global Enterprises</title>
         <meta
           name="description"
-          content="Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
+          content="Global Enterprises - Proving best solutions in Man Power, Civil, Fabrication, Earthmover, Crane and Electrical in Zawar Mines from Udaipur, Rajasthan, India."
         />
         <meta
           name="keywords"
-          content="Flanges, Pipes, Bold / Fastners, Angle / Channels, Bars / Wires, percentage alloys, Rods"
+          content="Civil Construction & Renovation, Fabrication & Painting, Operation & Maintenance, Manpower Supply, Earthmover Services, Crane Supply, and Electrical Works"
         />
         <link
           rel="stylesheet"

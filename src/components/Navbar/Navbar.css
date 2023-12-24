@@ -46,7 +46,7 @@
   text-decoration: none;
 }
 .nav-links:hover {
-  color: #ecd06f;
+  color: rgb(202, 136, 14);
   transition: all 0.2s ease-out;
   text-decoration: none;
 }

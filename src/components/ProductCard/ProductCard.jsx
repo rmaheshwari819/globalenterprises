@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
-import ImageOne from '../../assets/img1.jpg';
-import ImageTwo from '../../assets/img2.jpg';
-import ImageThree from '../../assets/img3.jpg';
-import ImageFor from '../../assets/img4.jpg';
-import AngleChannel from '../../assets/angleMain.jpg';
-import Bars from '../../assets/bars.jpg';
-import ImageEight from '../../assets/img8.jpg';
-import ImageTen from '../../assets/img10.jpg';
-import RodsProduct from '../../assets/steelrods.jpg';
+import ImageOne from '../../assets/gbl/civilconst.jpg';
+import ImageTwo from '../../assets/gbl/structural-steel-fabrication.jpg';
+import ImageThree from '../../assets/gbl/manpower.jpeg';
+import ImageFor from '../../assets/gbl/earthmover.png';
+import AngleChannel from '../../assets/gbl/crane.webp';
+import Bars from '../../assets/gbl/o&m.jpeg';
+import ImageEight from '../../assets/gbl/electric.jpeg';
+import ImageTen from '../../assets/gbl/transport3.webp';
+import RodsProduct from '../../assets/gbl/renovation.webp';
 
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
@@ -21,12 +21,12 @@ const productData = [
   {
     link: '/flanges-manufacturer-in-india',
     name: 'Fabrication',
-    img: ImageThree,
+    img: ImageTwo,
   },
   {
     link: '/pipes-manufacturer-in-india',
     name: 'Manpower Supply',
-    img: ImageTwo,
+    img: ImageThree,
   },
   {
     link: '/bold-fastners-manufacturer-in-india',
@@ -34,28 +34,28 @@ const productData = [
     img: ImageFor,
   },
   {
-    link: '/angle-channels-manufacturer-in-india',
-    name: 'Crane Supply',
-    img: AngleChannel,
-  },
-  {
     link: '/steets-plates-manufacturer-in-india',
     name: 'Electrical Works',
     img: ImageEight,
   },
   {
-    link: '/bars-wires-manufacturer-in-india',
-    name: 'O & M',
-    img: Bars,
+    link: '/angle-channels-manufacturer-in-india',
+    name: 'Crane Supply',
+    img: AngleChannel,
   },
   {
     link: '/percentage-alloys-manufacturer-in-india',
-    name: 'Renovation',
+    name: 'Transportation',
     img: ImageTen,
   },
   {
+    link: '/bars-wires-manufacturer-in-india',
+    name: 'O & M, Erection',
+    img: Bars,
+  },
+  {
     link: '/rods-manufacturer-in-india',
-    name: 'Mechanical',
+    name: 'Renovation',
     img: RodsProduct,
   },
 ];

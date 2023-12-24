@@ -15,14 +15,14 @@ const Home = () => {
       <Layout>
         <div>
           <Helmet>
-            <title>{headline} - Parmeshwar Steel Center</title>
+            <title>{headline} - Global Enterprises</title>
             <meta
               name="description"
-              content="Parmeshwar Steel Centre - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
+              content="Global Enterprises - Proving best solutions in Man Power, Civil, Fabrication, Earthmover, Crane and Electrical in Zawar Mines from Udaipur, Rajasthan, India."
             />
             <meta
               name="keywords"
-              content="Flanges, Pipes, Bold / Fastners, Angle / Channels, Bars / Wires, percentage alloys, Rods"
+              content="Civil Construction & Renovation, Fabrication & Painting, Operation & Maintenance, Manpower Supply, Earthmover Services, Crane Supply, and Electrical Works"
             />
             <link
               rel="stylesheet"

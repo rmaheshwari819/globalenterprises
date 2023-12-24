@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import Pipe from '../../assets/pipe.jpg';
+import Pipe from '../../assets/bannerBg1.jpg';
 import './About.css';
 import { motion, useInView } from 'framer-motion';
 
@@ -79,10 +79,7 @@ const About = () => {
                   has earned us a reputation as a trusted partner in the construction and 
                   related industries. Whether you are embarking on a new project or seeking 
                   reliable maintenance services, Global Enterprises is here to turn your 
-                  vision into reality.
-                  Contact us today to discuss how we can contribute to the success of your projects 
-                  and operations. Feel free to customize this description based on specific details 
-                  about your company, such as your values, unique offerings, and notable projects.
+                  vision into reality, we work for quality.
                 </motion.p>
                 <motion.p
                   variants={variants}
