@@ -59,7 +59,7 @@ const Banner = () => {
             style={{ fontWeight: 700 }}
             className="display-3 text-lg-start text-md-start text-center"
           >
-            We Deliver Excellence My change
+            We Deliver Excellence My jignesh
             {/* To Provide Quality Services that exceeds the expectation of our esteemed Customers */}
           </motion.h1>
           <motion.h4
