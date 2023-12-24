@@ -59,16 +59,16 @@ const Banner = () => {
             style={{ fontWeight: 700 }}
             className="display-3 text-lg-start text-md-start text-center"
           >
-            We Deliver Excellence
+            We Deliver Excellence My change
             {/* To Provide Quality Services that exceeds the expectation of our esteemed Customers */}
           </motion.h1>
           <motion.h4
             variants={textVariants}
             className="text-lg-start my-5 text-md-start text-center"
           >
-            Civil Construction & Renovation, Fabrication & Painting, 
-            Operation & Maintenance, Manpower Supply, Earthmover Services, Crane Supply, 
-            and Electrical Works.
+            Civil Construction & Renovation, Fabrication & Painting, Operation &
+            Maintenance, Manpower Supply, Earthmover Services, Crane Supply, and
+            Electrical Works.
           </motion.h4>
           <motion.div
             variants={textVariants}
