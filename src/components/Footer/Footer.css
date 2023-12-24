@@ -1,0 +1,26 @@
+.footerBackground {
+  background-color: gray;
+  color: #f3f4f8;
+}
+
+.footerLogoHere {
+  width: 20%;
+  display: flex;
+  margin: auto;
+}
+
+.link-tagfooter {
+  cursor: pointer;
+  color: #fff;
+  transition: 0.1s all ease-in-out;
+  text-decoration: none;
+}
+.parafotter {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .parafotter {
+    font-size: 16px;
+  }
+}

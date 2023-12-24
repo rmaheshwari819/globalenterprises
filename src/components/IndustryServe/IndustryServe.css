@@ -1,0 +1,123 @@
+.nextArrorDesignIndustries {
+  border: none;
+  outline: none;
+  background-color: #0b2d39;
+  position: absolute;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 45%;
+}
+
+.prevArrorDesignIndustries {
+  border: none;
+  outline: none;
+  background-color: #0b2d39;
+  position: absolute;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 45%;
+  z-index: 999;
+}
+
+.postionArrowIndustries {
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 810px) {
+  .nextArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top: 0;
+  }
+
+  .prevArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    top: 0;
+    z-index: 999;
+  }
+
+  .postionArrowIndustries {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .nextArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top: 0;
+  }
+
+  .prevArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    top: 0;
+    z-index: 999;
+  }
+}
+
+@media (max-width: 600px) {
+  .nextArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 56%;
+    top: 105%;
+  }
+
+  .prevArrorDesignIndustries {
+    border: none;
+    outline: none;
+    background-color: #0b2d39;
+    position: absolute;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 32%;
+    top: 105%;
+    z-index: 999;
+  }
+}

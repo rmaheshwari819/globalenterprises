@@ -1,0 +1,86 @@
+.carousel-inner {
+  display: flex;
+}
+
+.item {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px; /* Adjust the height as per your requirements */
+  background-color: #f0f0f0; /* Optional: Customize the item background color */
+  margin-right: 15px; /* Optional: Add some space between items */
+  flex: 1;
+}
+
+.servicesbgBig {
+  background-image: url(../../assets/serviceBg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.underline-for-heading::after {
+  content: '';
+  display: block;
+  width: 72px;
+  padding-top: 1px;
+  border-bottom: 2px solid #00e3ae;
+}
+
+.nextArrorDesign {
+  border: none;
+  outline: none;
+  background-color: #0b2d39;
+  position: absolute;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 45%;
+}
+
+.prevArrorDesign {
+  border: none;
+  outline: none;
+  background-color: #0b2d39;
+  position: absolute;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 45%;
+  z-index: 999;
+}
+
+.postionArrow {
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 468px) {
+  .nextArrorDesign {
+    right: 30%;
+    top: 90%;
+  }
+
+  .prevArrorDesign {
+    left: 30%;
+    top: 90%;
+    z-index: 999;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1362px) {
+  .nextArrorDesign {
+    right: 30%;
+    top: 90%;
+  }
+
+  .prevArrorDesign {
+    left: 30%;
+    top: 90%;
+    z-index: 999;
+  }
+}

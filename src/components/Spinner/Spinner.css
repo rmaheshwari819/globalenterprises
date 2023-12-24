@@ -1,0 +1,58 @@
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  font-size: 0; /* Hide the original 'P' */
+  position: relative;
+  width: 48px; /* Set the width to the desired size of your 'P' */
+}
+
+.part {
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  animation: splitAndJoin 2s linear forwards;
+  opacity: 0; /* Hide the parts initially */
+}
+
+.part:nth-child(1) {
+  left: 0;
+  animation-delay: 0s;
+}
+
+.part:nth-child(2) {
+  left: 50%;
+  animation-delay: -1s;
+}
+
+.part:nth-child(3) {
+  left: 100%;
+  animation-delay: -2s;
+}
+
+@keyframes splitAndJoin {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}

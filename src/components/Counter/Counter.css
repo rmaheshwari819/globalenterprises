@@ -1,0 +1,13 @@
+.counter-row {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bgCounterImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url(../../assets/counterBg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: all ease-in-out 0.8s;
+}

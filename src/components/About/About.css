@@ -1,0 +1,15 @@
+#hrTag {
+  width: 100px;
+  height: 4px;
+  width: 0px;
+  color: #000;
+  background-color: #000;
+}
+
+.underline-for-heading::after {
+  content: '';
+  display: block;
+  width: 72px;
+  padding-top: 1px;
+  border-bottom: 2px solid #00e3ae;
+}

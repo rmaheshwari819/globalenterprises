@@ -1,0 +1,34 @@
+.table-th-width {
+  width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .table-th-width {
+    width: 25px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .table-th-width {
+    width: 90px;
+  }
+}
+
+.paraSize {
+  font-size: 16px;
+  text-align: justify;
+}
+@media screen and (min-width: 600px) {
+  .paraSize {
+    font-size: 20px;
+  }
+}
+
+.paraSizeEx {
+  font-size: 17px;
+  text-align: justify;
+}
+@media screen and (min-width: 600px) {
+  .paraSizeEx {
+    font-size: 19px;
+  }
+}
