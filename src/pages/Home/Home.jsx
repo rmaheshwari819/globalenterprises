@@ -7,7 +7,7 @@ import IndustryServe from '../../components/IndustryServe/IndustryServe';
 import Slider from '../../components/Slider/Slider';
 import Counter from '../../components/Counter/Counter';
 import { Helmet } from 'react-helmet';
-const headline = 'Pipe Fittings, Flanges Manufacturer and Suppliers in India';
+const headline = 'Global Enterprises - Man Power, Civil, Fabrication, Earthmover, Crane and Electrical in Zawar Mines from Udaipur, Rajasthan, India';
 
 const Home = () => {
   return (
