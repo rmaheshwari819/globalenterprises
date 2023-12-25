@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 
         <Footer />
         <Link
-          to="https://wa.me/919869037711"
+          to="https://wa.me/919784098800"
           target="_blank"
           className="whatsapp_float d-flex justify-content-center align-items-center"
         >
