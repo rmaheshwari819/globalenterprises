@@ -9,28 +9,28 @@ import ImageEight from '../../assets/gbl/electric.jpeg';
 import ImageTen from '../../assets/gbl/transport3.webp';
 import RodsProduct from '../../assets/gbl/renovation.webp';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 
 const productData = [
   {
     link: '/fittings-manufacturer-in-india',
-    name: 'Civil Construction',
+    name: 'Civil Construction & Renovation',
     img: ImageOne,
   },
   {
     link: '/flanges-manufacturer-in-india',
-    name: 'Fabrication',
+    name: 'Fabrication & Mechanical Job',
     img: ImageTwo,
   },
   {
     link: '/pipes-manufacturer-in-india',
-    name: 'Manpower Supply',
+    name: 'Man Power Supply',
     img: ImageThree,
   },
   {
     link: '/bold-fastners-manufacturer-in-india',
-    name: 'Earthmovers',
+    name: 'Earthmovers & Crane Supply',
     img: ImageFor,
   },
   {
@@ -40,7 +40,7 @@ const productData = [
   },
   {
     link: '/angle-channels-manufacturer-in-india',
-    name: 'Crane Supply',
+    name: 'Structure & Equipment Erection',
     img: AngleChannel,
   },
   {
@@ -50,16 +50,16 @@ const productData = [
   },
   {
     link: '/bars-wires-manufacturer-in-india',
-    name: 'O & M, Erection',
+    name: 'Operation & Maintenance',
     img: Bars,
   },
   {
     link: '/rods-manufacturer-in-india',
-    name: 'Renovation',
+    name: 'Dismantling & Warehousing',
     img: RodsProduct,
   },
 ];
-const ProductCardHeader = 'Global Corp Expertise';
+const ProductCardHeader = 'Company Performing Areas';
 const ProductCard = () => {
   const textVariants = {
     initial: {
@@ -120,21 +120,21 @@ const ProductCard = () => {
               ref={ref}
               animate={isInView && 'animate'}
               key={index}
-              className="grid-item shadow "
+              className="grid-item shadow"
               style={{ backgroundColor: '#Fafafa' }}
             >
               <motion.div className="">
                 <img src={item.img} alt="product-img" className="imgWidth " />
               </motion.div>
-              <h1 className="mt-lg-2 text-capitalize mt-4">{item.name}</h1>
-              <Link to={item.link}>
+              <h2 className="mt-lg-2 text-capitalize mt-4">{item.name}</h2>
+              {/* <Link to={item.link}>
                 <button
                   className="mt-2 px-5 py-2 rounded-5 bg-transparent"
                   style={{ fontSize: '18px' }}
                 >
                   Learn More
                 </button>
-              </Link>
+              </Link> */}
             </motion.div>
           );
         })}

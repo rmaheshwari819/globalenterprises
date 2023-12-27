@@ -3,104 +3,43 @@ import { Table } from 'react-bootstrap';
 import { motion, useInView } from 'framer-motion';
 
 const dataone = [
-  { cities: 'Banglore' },
-  { cities: 'Mumbai' },
-  { cities: 'Chennai' },
-  { cities: 'Hyderabad' },
-  { cities: 'Kolkata' },
-  { cities: 'Pune' },
+  { cities: 'Zawar' },
+  { cities: 'Dariba' },
+  { cities: 'Chanderiya' },
+  { cities: 'Agucha' },
+  { cities: 'Kayad' },
+  { cities: 'Devpura' },
 ];
 
 const datatwo = [
-  { cities: 'New Delhi' },
-  { cities: 'Ahmedabad' },
-  { cities: 'Jaipur' },
-  { cities: 'Surat' },
-  { cities: 'Salem' },
-  { cities: 'Gandhinagar' },
+  { cities: 'Udaipur' },
+  { cities: 'Rajsamand' },
+  { cities: 'Chittorgarh' },
+  { cities: 'Gulabpura' },
+  { cities: 'Bhilwara' },
+  { cities: 'Ajmer' },
 ];
 
 const datathree = [
-  { cities: 'Bhiwandi' },
-  { cities: 'Tiruppur' },
-  { cities: 'Sivakasi' },
-  { cities: 'Jamnagar' },
-  { cities: 'Thiruvananthapuram' },
-  { cities: 'Rajahmundry' },
+  { cities: 'Bijayanagar' },
+  { cities: 'Jamar Khotra' },
+  { cities: 'Bhalariya' },
+  { cities: 'Debari' },
+  { cities: 'Dakan Kotra' },
+  { cities: 'Baroi' },
 ];
 
 const datafour = [
-  { cities: 'Bhubaneshwar' },
-  { cities: 'Vijaywada' },
+  { cities: 'Dakan Khotra' },
+  { cities: 'Rampura' },
   { cities: 'Firozabad' },
-  { cities: 'Bakaro Steel City' },
-  { cities: 'Rajkot' },
-  { cities: 'Bharush' },
-];
-
-const datafive = [
-  { cities: 'Panna' },
-  { cities: 'Raipur' },
-  { cities: 'Cochin' },
-  { cities: 'Ludhiana' },
-  { cities: 'Panipat' },
-  { cities: 'Durgapur' },
-];
-
-const datasix = [
-  { cities: 'Peenya' },
-  { cities: 'Pimpri-Chinchwad' },
-  { cities: 'Channapatna' },
-  { cities: 'Kharagpur' },
-  { cities: 'Nashik' },
-  { cities: 'Bareilly' },
-];
-
-const dataseven = [
-  { cities: 'Varanasi' },
-  { cities: 'Haldia' },
-  { cities: 'Rourkela' },
-  { cities: 'Banglore' },
-  { cities: 'Moradabad' },
-  { cities: 'Inodore' },
-];
-const dataeight = [
-  { cities: 'Visakhapatnam' },
-  { cities: 'Trivandrum' },
-  { cities: 'Pithampur' },
-  { cities: 'Dibrugarh' },
-  { cities: 'Angul' },
-  { cities: 'Gwalior' },
-];
-
-const datanine = [
-  { cities: 'Coimbatore' },
-  { cities: 'Kannur' },
-  { cities: 'Nagpur' },
-  { cities: 'Vadodara' },
-  { cities: 'Rudrapur' },
-  { cities: 'Noida' },
-];
-
-const dataten = [
-  { cities: 'Agra' },
-  { cities: 'Bhagalpur' },
-  { cities: 'Jamshedpur' },
-  { cities: 'Bhilai' },
-  { cities: 'Lucknow' },
-  { cities: 'Kanpur' },
-];
-const dataelven = [
-  { cities: 'Thane' },
-  { cities: 'Bhopal' },
-  { cities: 'Navi Mumbai' },
-  { cities: 'Vasai' },
-  { cities: 'Bikaner' },
-  { cities: 'Maharashtra' },
+  { cities: 'Zawar Mala' },
+  { cities: 'Mochia' },
+  { cities: 'Balarai' },
 ];
 
 const tableContentPara =
-'Global Corp. dealt in the realm of Civil Construction & Renovation, Fabrication & Painting, Operation & Maintenance, Manpower Supply, Earthmover Services, Crane Supply, and Electrical Works';
+'Global Enterprises dealt in the realm of Civil Construction & Renovation, Fabrication & Painting, Operation & Maintenance, Manpower Supply, Earthmover Services, Crane Supply, and Electrical Works';
 
 const headerTagForCities = 'We provide services in below cities in India';
 const headerforManufacturer = 'COMPANY PERFORMING AREAS IN';
@@ -188,41 +127,6 @@ const TableContent = () => {
             </tr>
             <tr>
               {datafour.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {datafive.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {datasix.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {dataseven.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {dataeight.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {datanine.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {dataten.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {dataelven.map((item) => (
                 <td>{item.cities}</td>
               ))}
             </tr>

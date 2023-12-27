@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
-import Banner from '../../components/Banner/Banner';
+// import Banner from '../../components/Banner/Banner';
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import About from '../../components/About/About';
 import Services from '../../components/Services/Services';
 import IndustryServe from '../../components/IndustryServe/IndustryServe';
@@ -29,7 +30,8 @@ const Home = () => {
               href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             />
           </Helmet>
-          <Banner />
+          {/* <Banner /> */}
+          <BannerSlider />
           <About />
           <Services />
           <IndustryServe />

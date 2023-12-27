@@ -3,12 +3,13 @@
   display: grid;
   grid-template-columns: repeat(3, 350px);
   justify-content: center;
-  grid-template-rows: repeat(3, 330px);
+  grid-template-rows: repeat(3, 300px);
   row-gap: 60px;
   column-gap: 80px;
 }
 
 .grid-item {
+  text-align: center;
   align-items: center;
   border-radius: 20px;
   display: flex;

@@ -71,28 +71,28 @@ const Footer = () => {
             <div className="px-2 ">
               <h4 className="pb-4">Services</h4>
               <ul className="list-unstyled">
-                <Link to="/fittings" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="">Civil Construction</li>
                 </Link>
-                <Link to="/pipes" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Fabrication & Erection</li>
                 </Link>
-                <Link to="/flanges" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Man Power Supply</li>
                 </Link>
-                <Link to="/bold-fastners" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Earthmovers Services</li>
                 </Link>
-                <Link to="/angle-channels" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Crane Supply</li>
                 </Link>
-                <Link to="/steets-plates" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Electrical Works</li>
                 </Link>
-                <Link to="/wires-bars" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Transportation</li>
                 </Link>
-                <Link to="/percentage-alloys" className="link-tagfooter">
+                <Link to="/" className="link-tagfooter">
                   <li className="mt-lg-3 mt-md-3 mt-3">Operation & Maintenence</li>
                 </Link>
               </ul>
