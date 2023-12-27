@@ -18,7 +18,7 @@ import { motion, useInView } from 'framer-motion';
 const serviceData = [
   {
     image: dairyImage,
-    titles: 'Dairy',
+    titles: 'Coal Mining',
   },
   {
     image: foodAndDairy,
@@ -30,7 +30,7 @@ const serviceData = [
   },
   {
     image: Pharma,
-    titles: 'Pharmaceutikal',
+    titles: 'Pharmaceutical',
   },
   {
     image: sugarMills,
@@ -42,11 +42,11 @@ const serviceData = [
   },
   {
     image: AutoMobile,
-    titles: 'AutoMobile',
+    titles: 'Automobiles',
   },
   {
     image: SuperMarket,
-    titles: 'SuperMarket',
+    titles: 'Super Market',
   },
   {
     image: ChemicalIndustries,
@@ -99,15 +99,18 @@ const IndustryServe = () => {
           <motion.div className="px-2 col-lg-4 col-12 d-flex  flex-column justify-content-between text-lg-start text-center">
             <motion.h1
               variants={variants}
-              className=""
-              style={{ fontWeight: '900' }}
+              className="text-center"
+              style={{ fontWeight: '600' }}
             >
-              Industries our services are used
+              Industries we provide our services
             </motion.h1>
             <motion.p variants={variants} className="mt-3 ">
-              We have serve various of industries in India, as well as over
-              world wide recently we have supplied our services to Sugar Mills, Pharmacutical
-              Industry and Water Treatment Plant
+              We have serve various industries in India, as well as over
+              world wide recently we are planning for Hindustan Zinc Ltd. (HZL) and Vedanta. 
+              We are quite flexible when it comes to adapting new technologies and we have 
+              also modified our work ethics as per the current market trends. 
+              With our efficiency, we have been able to make a place among 
+              the Mining Companies in India. 
             </motion.p>
           </motion.div>
           <motion.div className="col-lg-8 col-12 ">

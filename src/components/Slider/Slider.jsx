@@ -1,10 +1,8 @@
 import React from 'react';
-import Diamond from '../../assets/diamond.jpg';
-import Nation from '../../assets/natioan.jpg';
-import Sumitomo from '../../assets/sumitomo.JPG';
+import Diamond from '../../assets/gbl/hzl.png';
+import Nation from '../../assets/gbl/hzl-vedenta.jpeg';
+import Sumitomo from '../../assets/gbl/vedanta.png';
 import Welspon from '../../assets/welspon.jpg';
-import VBeverages from '../../assets/varun.png';
-import Bajaj from '../../assets/bajaj.JPG';
 import ShivanAutoTech from '../../assets/shivam autotech.jpg';
 import BKT from '../../assets/bkt.png';
 import JBMGroup from '../../assets/jbm group.png';
@@ -32,14 +30,39 @@ const imagesData = [
     images: Welspon,
   },
   {
+    class: 'slideImageExtraLarge',
+    images: ShivanAutoTech,
+  },
+  {
+    class: 'slideImageExtraLarge',
+    images: BKT,
+  },
+  {
+    class: 'slideImageExtraLarge',
+    images: JBMGroup,
+  },
+  {
+    class: 'slideImageExtraLarge',
+    images: Hydrobenjg,
+  },
+  {
     class: 'sliderImageSize',
-
-    images: VBeverages,
+    images: Diamond,
   },
   {
     class: 'sliderImageSize',
 
-    images: Bajaj,
+    images: Nation,
+  },
+  {
+    class: 'sliderImageSize',
+
+    images: Sumitomo,
+  },
+  {
+    class: 'sliderImageSize',
+
+    images: Welspon,
   },
   {
     class: 'slideImageExtraLarge',
@@ -77,16 +100,6 @@ const imagesData = [
     images: Welspon,
   },
   {
-    class: 'sliderImageSize',
-
-    images: VBeverages,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Bajaj,
-  },
-  {
     class: 'slideImageExtraLarge',
     images: ShivanAutoTech,
   },
@@ -120,61 +133,6 @@ const imagesData = [
     class: 'sliderImageSize',
 
     images: Welspon,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: VBeverages,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Bajaj,
-  },
-  {
-    class: 'slideImageExtraLarge',
-    images: ShivanAutoTech,
-  },
-  {
-    class: 'slideImageExtraLarge',
-    images: BKT,
-  },
-  {
-    class: 'slideImageExtraLarge',
-    images: JBMGroup,
-  },
-  {
-    class: 'slideImageExtraLarge',
-    images: Hydrobenjg,
-  },
-  {
-    class: 'sliderImageSize',
-    images: Diamond,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Nation,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Sumitomo,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Welspon,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: VBeverages,
-  },
-  {
-    class: 'sliderImageSize',
-
-    images: Bajaj,
   },
   {
     class: 'slideImageExtraLarge',
