@@ -9,14 +9,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   margin: auto;
   position: absolute;
-  top: 20%;
-  left: 30%;
-
-  transform: translate(-30%, -30%);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
   padding: 20px 0px;
 }
 .textbox-design h1 {
@@ -24,7 +23,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
-  color:gold;
+  color: gold;
   letter-spacing: 0.3rem;
   line-height: 4.5rem;
   word-spacing: 0.2rem;
@@ -34,33 +33,101 @@
   font-size: 22px;
   text-align: center;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
 }
 
 .textbox-design button {
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   outline: none;
   padding: 12px 28px;
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: rgba(2, 107, 163, 0.5);
+  transition: all 0.2s ease-in-out;
 }
 .textbox-design button:hover {
   background-color: #005582;
+  border-radius: 5px;
 }
-/* .carousel-control-next-icon {
-  background-image: url(../../assets/gbl/arrow.png) !important;
-  background-size: cover;
-  background-color: transparent;
+
+@media screen and (max-width: 840px) {
+  .textbox-design h1 {
+    font-size: 45px;
+  }
+  .textbox-design h2 {
+    font-size: 20px;
+  }
+  .textbox-design {
+    /* padding: 0px 50px; */
+    max-width: 600px;
+  }
 }
-.carousel-control-prev-icon {
-  background-image: url(../../assets/gbl/arrow.png) !important;
-  transform: scaleX(-1);
-  background-size: cover;
-  background-color: black;
-} */
+
+@media screen and (max-width: 736px) {
+  .textbox-design h1 {
+    letter-spacing: 0.3rem;
+    line-height: 3.6rem;
+    word-spacing: 0.1rem;
+    font-size: 35px;
+  }
+  .textbox-design h2 {
+    font-size: 18px;
+  }
+  .textbox-design {
+    max-width: 550px;
+  }
+  .img-container {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .textbox-design h1 {
+    letter-spacing: 0.3rem;
+    line-height: 3.2rem;
+    word-spacing: 0.1rem;
+    font-size: 35px;
+  }
+  .textbox-design h2 {
+    font-size: 18px;
+  }
+  .textbox-design {
+    max-width: 500px;
+  }
+  .img-container {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .textbox-design h1 {
+    letter-spacing: 0.3rem;
+    line-height: 2.8rem;
+    word-spacing: 0.1rem;
+    font-size: 30px;
+  }
+  .textbox-design h2 {
+    font-size: 16px;
+  }
+  .textbox-design {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .carousel-control-next-icon {
+    margin-top: 250px;
+  }
+  .carousel-control-prev-icon {
+    margin-top: 250px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .img-container {
+    height: 480px;
+  }
+}
