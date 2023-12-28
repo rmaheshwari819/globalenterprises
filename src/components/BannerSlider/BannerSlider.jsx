@@ -51,43 +51,48 @@ const BannerSlider = () => {
   ];
 
   return (
-    <Carousel
-      fade
-      indicators={false}
-      interval={4000}
-      draggable={true}
-      // data-bs-theme="dark"
-    >
+    <Carousel fade indicators={false} interval={4000} draggable={true}>
       {BannerData.map((item, index) => (
         <Carousel.Item key={index}>
-          <div className="img-container">
-            <div style={{ width: '100%', height: '100%' }}>
-              <img
+          <motion.div className="img-container">
+            <motion.div style={{ width: '100%', height: '100%' }}>
+              <motion.img
                 initial={{ scale: 1 }}
                 whileInView={{ scale: 1.3 }}
-                transition={{ duration: 12.5, ease: 'easeIn' }}
+                transition={{ duration: 12.5, ease: 'easeInOut' }}
                 src={item.image}
                 style={{ width: '100%', height: '100%', contain: 'cover' }}
                 alt={item.heading}
               />
-            </div>
-            <div style={{ border: '1px solid red' }}>
-              <div
+            </motion.div>
+
+            <div className="textbox-design px-lg-0 px-md-0 px-sm-0 px-2">
+              <motion.h1
                 initial={{ scale: 0, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1.2, delay: 0.6, ease: 'easeInOut' }}
-                className="textbox-design px-lg-0 px-md-0 px-sm-0 px-2"
               >
-                <h1>{item.heading}</h1>
-                <h2>{item.subheading}</h2>
-                <Link to="/services">
-                  <button className="mt-lg-5 mt-md-5 mt-sm-4 mt-3">
-                    Read more
-                  </button>
-                </Link>
-              </div>
+                {item.heading}
+              </motion.h1>
+              <motion.h2
+                initial={{ scale: 0, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 1.2, delay: 0.6, ease: 'easeInOut' }}
+              >
+                {item.subheading}
+              </motion.h2>
+              <Link to="/services">
+                <motion.button
+                  initial={{ scale: 0, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 1.2, delay: 0.6, ease: 'easeInOut' }}
+                  className="mt-lg-5 mt-md-5 mt-sm-4 mt-3"
+                >
+                  Read more
+                </motion.button>
+              </Link>
             </div>
-          </div>
+          </motion.div>
         </Carousel.Item>
       ))}
     </Carousel>
