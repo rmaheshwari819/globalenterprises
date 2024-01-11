@@ -129,7 +129,7 @@ const Footer = () => {
             <div className="px-2">
               <h4 className="pb-4">Find Us On Google</h4>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d300.16015502779885!2d73.73541829896692!3d24.347288896623542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1703448515416!5m2!1sen!2sin"
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1391.4771203906444!2d73.73444810098003!3d24.34733138204344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967938b484b55a9%3A0x94f47ddd982c94f5!2sGlobal%20Enterprises!5e0!3m2!1sen!2sin!4v1704998385032!5m2!1sen!2sin'
                 style={{ width: '100%', height: '250px' }}
                 allowfullscreen=""
                 loading="lazy"
